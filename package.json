@@ -56,11 +56,15 @@
     "@semantic-release/npm": "^13.2.0",
     "lefthook": "^1.7.22",
     "lint-staged": "^15.2.10",
+    "npm": "file:vendor/npm-11.21.1-undici-6.29.1.tgz",
     "semantic-release": "^25.0.9",
     "vite": "^6.4.5",
     "vite-plugin-banner": "^0.8.0",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-html": "^3.2.2"
+  },
+  "overrides": {
+    "npm": "$npm"
   },
   "lint-staged": {
     "src/**/*.{ts,js}": [
